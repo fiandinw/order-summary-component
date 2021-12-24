@@ -6,7 +6,7 @@ html{
 }
 
 body{
-    background-image: url('https://github.com/fiandinw/order-summary-component/raw/main/images/pattern-background-mobile.svg');
+    background-image: url('./images/pattern-background-mobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
