@@ -14,7 +14,7 @@ body{
 
 .card-container{
     text-align: center;
-    height: 90vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,4 +123,14 @@ body{
 
 .cancel-order:hover{
     color: hsl(223, 47%, 23%);
+}
+
+@media (max-width:375px){
+    .card{
+        width: 20em;
+    }
+
+    .plan-details{
+        margin-right: 0.5em;
+    }
 }
